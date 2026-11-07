@@ -3,35 +3,28 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Hi, I’m João.
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+---
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Welcome to In-depth Plumbing - a digital corner dedicated to looking under the floorboards of software to see why the bits are leaking.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+I’m a software engineer who tends to take the "first-principles" approach a bit too literally.
+If there's a problem being solved about 98% of the way I want... you'll probably find me spending 3 weeks writing a custom, slightly unhinged alternative from scratch to see if I can hit the 100%.
+Not the most efficient way to live, but hey: the snacks in the rabbit hole taste great.
 
-## Features
+## What goes on here?
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+This blog is a notepad for my adventures (and misadventures) in low-level systems programming, compiler design, and hardware emulation.
+If it involves manually managing memory, counting CPU cycles, or squinting at hex dumps at 4:00 AM, you'll probably read about it here.
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+## The Philosophy
 
-and so much more.
+- Keep it simple: Strip away the bloat and heavy framework dependencies whenever possible.
+- Understand the stack: If you don't know what the metal is doing underneath, you're just guessing.
+- Don't take yourself too seriously: At the end of the day, we're all just modern wizards casting weird spells into glowing rectangles hoping something compiles.
 
-## Show your support
+---
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Thanks for stopping by!
+If you want to say hi, argue about tech, or point out a typo, you can find me on GitHub or track down the nearest espresso machine.
