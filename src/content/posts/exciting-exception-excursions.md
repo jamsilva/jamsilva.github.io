@@ -68,7 +68,7 @@ Each of the three paradigms above puts the error somewhere:
 * **Types** put it *in the value* via the type system.
 * **Unwinding** puts it *in control flow* via the runtime stack walk.
 
-What none of them do is provide an error mechanism that is **zero-cost on the happy path, allocation-free, and ergonomic at the same time**.
+What none of them do is provide an error mechanism that is **zero-cost (or nearly so) on the happy path, allocation-free, and ergonomic at the same time**.
 
 My design for Menehune aims to hit that fourth point in the design space: **an exception is a return value with a flag, and that flag is the only difference between a throw and a normal return.**
 
