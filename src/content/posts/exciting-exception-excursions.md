@@ -1,7 +1,7 @@
 ---
 author: João Silva
 pubDatetime: 2026-11-07T20:00:00.000Z
-modDatetime: 2026-11-07T20:00:00.000Z
+modDatetime: 2026-11-10T00:45:00.000Z
 title: Exciting Exception Excursions
 slug: exciting-exception-excursions
 featured: true
@@ -203,3 +203,9 @@ I would genuinely like to see it implemented because I think it's a better point
 Kernels and embedded systems don't avoid exceptions because clean error propagation is bad; they avoid them because stack-walking runtimes, unwind tables, and non-deterministic dynamic allocations are fundamentally incompatible with their operating environment.
 
 Menehune's approach treats an exception for what it actually is at the CPU level: a value returned along the standard control-flow path with a flag bit set. By pairing this representation with strict rules around non-throwing destructors and signature annotations, we get the ergonomics of `try`/`catch` in domains where exceptions were previously considered impossible.
+
+---
+
+## Updates and community discussion
+
+I shared this blog post to the [Compilers subreddit](https://www.reddit.com/r/Compilers/comments/1xr04v3/an_alternative_allocationfree_exception_handling/) where it found some interesting discussion. If you have an appetite for a few clarifications, wish to see some other points of view, or would like to discuss something, that's a good place to head next!
