@@ -1,7 +1,7 @@
 ---
 author: João Silva
 pubDatetime: 2026-11-14T22:45:00.000Z
-modDatetime: 2026-11-14T22:45:00.000Z
+modDatetime: 2026-11-14T23:50:00.000Z
 title: Writing code is not the bottleneck - Understanding is
 slug: writing-code-is-not-the-bottleneck-understanding-is
 featured: true
@@ -11,7 +11,7 @@ tags:
   - systems
   - architecture
   - ai
-description: Why treating code writing as an obsolete, mechanical step misses the point of software engineering—and how skipping mental model building threatens low-level systems and the future of the profession.
+description: Why treating code writing as an obsolete, mechanical step misses the point of software engineering - and how skipping mental model building threatens low-level systems and the future of the profession.
 ---
 
 > *Disclosure: In keeping with the workflow described in this post, the thesis, systems perspective, and arguments here are entirely my own, while an LLM was used as a sounding board to help organize the structure and refine the phrasing.*
@@ -19,6 +19,8 @@ description: Why treating code writing as an obsolete, mechanical step misses th
 I originally sat down to write this piece in a vacuum - a reflection on why the current industry consensus treating code writing as an obsolete, mechanical step is *dangerously* wrong. Then, doing what any reasonable engineer should do before building something from scratch, I looked for prior art.
 
 It turns out that [Christian Ekrem already articulated this core thesis](https://cekrem.github.io/posts/programming-as-theory-building-naur) over a year ago, connecting [Peter Naur’s 1985 essay *Programming as Theory Building*](https://pages.cs.wisc.edu/~remzi/Naur.pdf) to the rise of reflexive LLM code generation. Rather than reinventing the wheel, I want to build on that foundation and look at how this exact problem plays out in **low-level systems engineering** - and why the common management view of code misses the point.
+
+Additionally, [a recent article by Nick Hodges](https://www.infoworld.com/article/4244077/how-will-we-make-senior-developers.html) points to the classic radiology parallel - where AI was predicted to replace specialists, yet demand and salaries rose instead - and poses a question I will explore further below: if junior developers stop writing code, where will future senior developers come from?
 
 ---
 
