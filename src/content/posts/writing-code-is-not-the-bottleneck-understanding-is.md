@@ -1,7 +1,7 @@
 ---
 author: João Silva
 pubDatetime: 2026-11-14T22:45:00.000Z
-modDatetime: 2026-11-14T23:50:00.000Z
+modDatetime: 2026-11-15T01:15:00.000Z
 title: Writing code is not the bottleneck - Understanding is
 slug: writing-code-is-not-the-bottleneck-understanding-is
 featured: true
@@ -21,6 +21,8 @@ I originally sat down to write this piece in a vacuum - a reflection on why the 
 It turns out that [Christian Ekrem already articulated this core thesis](https://cekrem.github.io/posts/programming-as-theory-building-naur) over a year ago, connecting [Peter Naur’s 1985 essay *Programming as Theory Building*](https://pages.cs.wisc.edu/~remzi/Naur.pdf) to the rise of reflexive LLM code generation. Rather than reinventing the wheel, I want to build on that foundation and look at how this exact problem plays out in **low-level systems engineering** - and why the common management view of code misses the point.
 
 Additionally, [a recent article by Nick Hodges](https://www.infoworld.com/article/4244077/how-will-we-make-senior-developers.html) points to the classic radiology parallel - where AI was predicted to replace specialists, yet demand and salaries rose instead - and poses a question I will explore further below: if junior developers stop writing code, where will future senior developers come from?
+
+The same day I initially posted this, there was [this tweet by The Kobeissi Letter](https://x.com/KobeissiLetter/status/2121689817301819425) detailing how software engineers in their early career are being affected, data that I present later.
 
 ---
 
@@ -84,7 +86,7 @@ The code that gets merged into a codebase - the code your team will be responsib
 
 This shift does not just degrade existing codebases; it creates a dangerous economic and demographic trap for the industry.
 
-Breaking into the field as a junior developer was already hard enough. Now, many organizations are shrinking entry-level hiring under the assumption that LLMs can handle routine tasks faster and cheaper than a junior engineer. That logic has two fatal blind spots:
+Breaking into the field as a junior developer was already hard enough. Recent labor market data underscores just how sharp this contraction has become: since late 2022, software developer employment among workers aged 22–25 has dropped by **20%**, while employment for seasoned engineers aged 35–49 has grown by **11% to 20%** - a 40-percentage-point gap. Many organizations are shrinking entry-level hiring under the assumption that LLMs can handle routine tasks faster and cheaper than a junior engineer. That logic has two fatal blind spots:
 
 * **Senior engineers are not born - they are grown:** Every senior systems engineer today got there by starting at the bottom, writing real code, breaking things, debugging their own mistakes, and gradually building mental models under the guidance of experienced peers. Replace entry-level roles with code generators today, and you eliminate the exact training ground needed to produce the next generation of seniors.
 * **Subsidized lock-in:** Current LLM pricing is heavily subsidized by providers operating at a loss to capture market share. If an entire generation of developers grows up unable to write or debug systems without model assistance - and fewer senior engineers remain to step in - providers will hold total leverage. Once the subsidies end and prices inevitably climb, organizations will have no internal capability left to fall back on.
