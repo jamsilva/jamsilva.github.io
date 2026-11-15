@@ -1,7 +1,7 @@
 ---
 author: João Silva
 pubDatetime: 2026-11-14T22:45:00.000Z
-modDatetime: 2026-11-15T01:15:00.000Z
+modDatetime: 2026-11-15T14:50:00.000Z
 title: Writing code is not the bottleneck - Understanding is
 slug: writing-code-is-not-the-bottleneck-understanding-is
 featured: true
@@ -43,7 +43,7 @@ If you spend years triaging and fixing defects at the boundary between kernel sp
 
 Auditing and debugging hundreds of lines of plausible-looking generated code requires far more cognitive effort than writing clean, intentional code yourself. When code is accepted into a repository without an author who truly owns its mental model, `git blame` stops pointing to someone who knows *why* a memory barrier or a lock ordering rule exists. Every non-trivial bug turns into an archaeological expedition.
 
-At times, you may even find yourself needing to port modern software onto an older platform - a role I like to call **"reverse archaeologist,"** as you are essentially burying new treasures inside an ancient civilization. That kind of work requires careful planning, deliberate design, and surgical execution. AI can certainly assist with the mechanical implementation details, but you must strictly guide the architecture if you have any hope of making the result maintainable.
+At times, you may even find yourself needing to port modern software onto an older platform - a role I like to call **"reverse archaeologist"**, as you are essentially burying new treasures inside an ancient civilization. That kind of work requires careful planning, deliberate design, and surgical execution. AI can certainly assist with the mechanical implementation details, but you must strictly guide the architecture if you have any hope of making the result maintainable.
 
 ---
 
@@ -86,7 +86,7 @@ The code that gets merged into a codebase - the code your team will be responsib
 
 This shift does not just degrade existing codebases; it creates a dangerous economic and demographic trap for the industry.
 
-Breaking into the field as a junior developer was already hard enough. Recent labor market data underscores just how sharp this contraction has become: since late 2022, software developer employment among workers aged 22–25 has dropped by **20%**, while employment for seasoned engineers aged 35–49 has grown by **11% to 20%** - a 40-percentage-point gap. Many organizations are shrinking entry-level hiring under the assumption that LLMs can handle routine tasks faster and cheaper than a junior engineer. That logic has two fatal blind spots:
+Breaking into the field as a junior developer was already hard enough. Recent labor market data underscores just how sharp this contraction has become: since late 2022, software developer employment among workers aged 22–25 has dropped by **20%**, while employment for seasoned engineers aged 35–49 has grown by **11% to 20%** - a 40-percentage-point gap. This contraction does not just block recent graduates; it also strands countless career switchers who transitioned out of shrinking sectors and invested enormous time and effort to retrain for entry-level roles, only to have the bottom rung pulled away just as they arrived. Many organizations are shrinking entry-level hiring under the assumption that LLMs can handle routine tasks faster and cheaper than a junior engineer. That logic has two fatal blind spots:
 
 * **Senior engineers are not born - they are grown:** Every senior systems engineer today got there by starting at the bottom, writing real code, breaking things, debugging their own mistakes, and gradually building mental models under the guidance of experienced peers. Replace entry-level roles with code generators today, and you eliminate the exact training ground needed to produce the next generation of seniors.
 * **Subsidized lock-in:** Current LLM pricing is heavily subsidized by providers operating at a loss to capture market share. If an entire generation of developers grows up unable to write or debug systems without model assistance - and fewer senior engineers remain to step in - providers will hold total leverage. Once the subsidies end and prices inevitably climb, organizations will have no internal capability left to fall back on.
