@@ -1,8 +1,8 @@
 ---
 author: João Silva
 pubDatetime: 2026-11-14T22:45:00.000Z
-modDatetime: 2026-11-15T14:50:00.000Z
-title: Writing code is not the bottleneck - Understanding is
+modDatetime: 2026-11-15T16:50:00.000Z
+title: "Coding Creates Comprehension: Why Writing Code Still Matters"
 slug: writing-code-is-not-the-bottleneck-understanding-is
 featured: true
 draft: false
